@@ -7,7 +7,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: center;4
 }
 .page-header{
     height: 20vh;
@@ -197,13 +197,9 @@
     padding: 12px 14px;
     resize: none;
     font-size: 16px;
-    /* box-shadow: #6a6a6a; */
-    /* border: 0.5px solid gray; */
     transition: border-color 0.1s ease-in-out;
 }
 .cart-form-A textarea:focus{
-    /* border: 0.2px solid #ccc4c4; */
-    /* outline: auto solid gray; */
     outline-color:rgba(92, 92, 92, 0.348);
 }
 .cart-form-A textarea::placeholder{
@@ -211,8 +207,6 @@
     top: 10px;
     left: 14px;
     font-size: 16px;
-    /* border-color: gray; */
-
 }
 .cart-form-B{
     width: 60%;
@@ -278,3 +272,509 @@
       }
     }
   }
+
+@media screen and (max-width: 920px){
+    .page-header{
+        margin-top: 0;
+    }
+    .two{
+        margin-top: 20px;
+    }
+    .Cart_itemlist{
+        width: 88%;
+        position: relative;
+    }
+    .product span,
+    .quantity span,
+    .total span{
+        font-size: 22px;
+        letter-spacing: 2;
+    }
+    .three{
+        margin-top: 20px;
+    }
+    .cart-bottom{
+        width: 85%;
+        height: 23vh;
+    }
+    .cart-image{
+        width: 180px;
+        height: 21vh;
+        position: absolute;
+        left: 62px;
+    }
+    .cart-image img{
+        width: 182px;
+    }
+    .dec{
+        width: 23%;
+        gap: 33px;
+        position: absolute;
+        left: 265px;
+    }
+    .dec :nth-child(1){
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .dec :nth-child(2){
+        font-size: 18px;
+    }
+    .qty{
+        position: absolute;
+        right: 152px;
+        top: 440px;
+    }
+    .price{
+        position: absolute;
+        right: 50px;
+        top: 455px;
+    }
+    .price span{
+        font-size: 18px;
+    }
+    .cart-icons{
+        width: 70px;
+        height: 26px;
+    }
+    .cart-icons i{
+        font-size: 16px;
+    }
+    .cart-icons span{
+        font-size: 22px;
+    }
+    .four{
+        margin-top: 37px;
+    }
+    .cart-footer{
+        width: 85%;
+    }
+    .cart-form-B :nth-child(1),
+    .cart-form-B :nth-child(2){
+        font-size: 18px;
+    }
+    .cart-form-A textarea{
+        width: 92%;
+        height: 10vh;
+    }
+}
+@media screen and (max-width: 770px){
+    .page-header{
+        margin-top: 0;
+    }
+    .two{
+        margin-top: 20px;
+    }
+    .Cart_itemlist{
+        width: 88%;
+    }
+    .product span,
+    .quantity span,
+    .total span{
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+    .total,
+    .price{
+        display: none;
+    }
+    .three{
+        margin-top: 35px;
+    }
+    .cart-bottom{
+        width: 85%;
+    }
+    .cartheader,
+    .bottom-list{
+        position: relative;
+    }
+    .quantity,
+    .qty{
+        position: absolute;
+        right: -40px;
+    }
+    .qty{
+        top: 70px;
+    }
+    .product,
+    .cart-image{
+        position: absolute;
+        left: 5px;
+    }
+    .cart-image{
+        width: 146px;
+        height: 22vh;
+    }
+    .cart-image img{
+        width: 150px;
+    }
+    .dec{
+        width: 50%;
+        gap: 20px;
+        position: absolute;
+        left: 175px;
+        top: 50px;
+    }
+    .dec :nth-child(1){
+        font-size: 18px;
+    }
+    .dec :nth-child(2){
+        font-size: 16px;
+    }
+    .cart-icons{
+        width: 50px;
+        height: 12px;
+    }
+    .cart-icons i{
+        font-size: 9px;
+    }
+    .cart-icons span{
+        font-size: 14px;
+    }
+    .cart-footer{
+        width: 85%;
+    }
+    .cart-form-B :nth-child(1),
+    .cart-form-B :nth-child(2){
+        font-size: 15px;
+    }
+    .cart-form-A textarea{
+        width: 92%;
+        height: 10vh;
+    }
+} 
+@media screen and (max-width: 550px){
+      .page-header{
+          margin-top: 0;
+      }
+      .two{
+          margin-top: 20px;
+      }
+      .Cart_itemlist{
+          width: 88%;
+      }
+      .product span,
+      .quantity span,
+      .total span{
+          font-size: 12px;
+          letter-spacing: 0;
+      }
+      .total,
+      .price{
+          display: none;
+      }
+      .three{
+          margin-top: 20px;
+      }
+      .cart-bottom{
+          width: 85%;
+      }
+      .cartheader,
+      .bottom-list{
+          position: relative;
+      }
+      .quantity,
+      .qty{
+          position: absolute;
+          right: -40px;
+      }
+      .qty{
+        top: 45px;
+      }
+      .product,
+      .cart-image{
+          position: absolute;
+          left: 5px;
+      }
+      .cart-image{
+          width: 120px;
+      }
+      .cart-image img{
+        width: 100px;
+    }
+      .dec{
+          width: 50%;
+          gap: 20px;
+          position: absolute;
+          left: 118px;
+          top: 35px;
+      }
+      .dec :nth-child(1){
+        font-size: 14px;
+        line-height: 15px;
+      }
+      .dec :nth-child(2){
+        font-size: 12px;
+      }
+      .cart-icons{
+          width: 50px;
+          height: 12px;
+      }
+      .cart-icons i{
+          font-size: 9px;
+      }
+      .cart-icons span{
+          font-size: 14px;
+      }
+      .cart-footer{
+          width: 95%;
+      }
+      .cart-form-B :nth-child(1){
+          font-size: 10px;
+      }
+      .cart-form-B :nth-child(2){
+          font-size: 12px;
+      }
+}
+@media screen and (max-width: 475px){
+    .quantity span,
+    .product span,
+    .total span,
+    .price{
+        display: none;
+    }
+    .page-header{
+        height: 10vh;
+        margin-top: 0;
+    }
+    .header h1{
+        font-size: 20px;
+    }
+    .cart-bottom{
+        width: 93%;
+        height: 23vh;
+    }
+    .bottom-list{
+        position: relative;
+    }
+    .cart-image{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 30%;
+        height: 23vh;
+    }
+    .cart-image img{
+        width: 125px;
+        height: 23vh;
+    }
+    .dec{
+        position: absolute;
+        top: 34px;
+        left: 142px;
+        width: 68%;
+        gap: 20px;
+        width: 55%;
+    }
+    .dec :nth-child(1){
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .dec :nth-child(2){
+        font-size: 15px;
+    }
+    .dec span{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .qty{
+        position: absolute;
+        top: 155px;
+        right: 170px;
+    }
+    .cart-icons{
+        width: 40px;
+        height: 10px;
+    }
+    .cart-icons i{
+        font-size: 10px;
+    }
+    .cart-icons span{
+        font-size: 12px;
+    }
+    .cart-footer{
+        width: 95%;
+    }
+    .cart-NoteConyainer{
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cart-form-B{
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        gap: 10px;
+        width: 92%;
+    }
+    .cart-form-B :nth-child(1){
+        font-size: 12px;
+    }
+    .cart-form-B :nth-child(2){
+        font-size: 12px;
+    }
+    .cart-form-B button{
+        margin-top: 10px;
+        margin-right: 8px;
+        width: 100%;
+    }
+    .cart-form-A{
+        position: absolute;
+        top: 225px;
+        width: 100%;   
+    }
+    .cart-form-A textarea{
+        width: 90%;
+        height: 18vh;
+    }
+}
+@media screen and (max-width: 420px){
+    .dec{
+        left: 140px;
+        top: 10px;
+        width: 55%;
+        gap: 35px;
+    }
+    .qty{
+        right: 158px;
+    }
+    .dec span{
+        line-height: 22px;
+    }
+    .dec :nth-child(1){
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+@media screen and (max-width: 400px){
+    .quantity span,
+    .product span,
+    .total span,
+    .price{
+        display: none;
+    }
+    .page-header{
+        height: 10vh;
+        margin-top: 0;
+    }
+    .header h1{
+        font-size: 20px;
+    }
+    .cart-bottom{
+        width: 93%;
+        height: 23vh;
+    }
+    .bottom-list{
+        position: relative;
+    }
+    .cart-image{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 125px;
+    }
+    .dec{
+        position: absolute;
+        top: 40px;
+        right: -6px;
+        width: 65%;
+        gap: 20px;
+    }
+    .dec span{
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .dec :nth-child(2){
+        font-size: 12px;
+    }
+    .qty{
+        position: absolute;
+        top: 143px;
+        right: 143px;
+    }
+    .cart-icons{
+        width: 40px;
+        height: 10px;
+    }
+    .cart-icons i{
+        font-size: 10px;
+    }
+    .cart-icons span{
+        font-size: 12px;
+    }
+    .cart-footer{
+        width: 95%;
+    }
+    .cart-NoteConyainer{
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cart-form-B{
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        gap: 10px;
+        width: 92%;
+    }
+    .cart-form-B :nth-child(1){
+        font-size: 12px;
+    }
+    .cart-form-B :nth-child(2){
+        font-size: 12px;
+    }
+    .cart-form-B button{
+        margin-top: 10px;
+        margin-right: 8px;
+        width: 100%;
+    }
+    .cart-form-A{
+        position: absolute;
+        top: 225px;
+        width: 100%;   
+    }
+    .cart-form-A textarea{
+        width: 90%;
+        height: 18vh;
+    }
+}
+@media screen and (max-width: 380px){
+    .qty{
+        top: 115px;
+        right: 127px;
+    }
+    .dec{
+        top: 14px;
+        right: -16px;
+    }
+    .dec :nth-child(1){
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .dec :nth-child(2){
+        font-size: 12px;
+    }
+
+    .cart-image{
+        width: 125px;
+    }
+    .cart-bottom{
+        height: 23vh;
+    }
+}
+@media screen and (max-width: 365px){
+    .qty{
+        right: 118px;
+    }
+}
+@media screen and (max-width: 350px){
+    .qty{
+        right: 100px;
+    }
+    .dec{
+        width: 55%;
+        left: 142px;
+    }
+    .cart-form-B{
+        right: 12px;
+    }
+}
