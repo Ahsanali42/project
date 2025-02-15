@@ -271,8 +271,418 @@
         width: 100%;
       }
     }
-  }
+}
 
+/* Blog Page Statrt */
+
+.Blog-one{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.title-header{
+    width: 50%;
+}
+.title-header h2{
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+}
+.title-header h4{
+    text-align: start;
+}
+.Blog-two{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.main-two{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+}
+.Recent h4{
+    font-size: 22px;
+}
+.Blog-three{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.main-three{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+
+}
+.content-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+.content{
+    width: 40vw;
+    height: 80vh;
+    /* border: 1px solid black; */
+    padding: 10px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.content img{
+    width: 40vw;
+    height: 45vh;
+}
+.content-dec{
+    margin-top: 20px;
+}
+.content-dec span{
+    color: #424242;
+}
+.content-dec h3{
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.content-dec p{
+    margin-top: 10px;
+    font-size: 22px;
+    color: #424242;
+}
+.pakistani{
+    line-height: 30px;
+    color: #424242;
+    font-size: 15px;
+    font-weight: 100;
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px){
+    .header h1{
+        font-size: 42px;
+    }
+    .Cart_itemlist{
+        width: 82%;
+    }
+    .product span,
+    .quantity span,
+    .total span{
+        font-size: 20px;
+    }
+    .cart-bottom{
+        width: 82%;
+    }
+    .dec{
+        margin-left: 20px;
+        gap: 35px;
+    }
+    .dec span{
+        font-size: 16px;
+    }
+    .dec :nth-child(2){
+        font-size: 16px;
+    }
+    .price span{
+        font-size: 16px;
+    }
+    .cart-footer{
+        width: 82%;
+    }
+    .cart-form-A p{
+        font-size: 18px;
+    }
+    .cart-form-A textarea::placeholder{
+        font-size: 18px;
+    }
+    .cart-form-B :nth-child(1),
+    .cart-form-B :nth-child(2){
+        font-size: 18px;
+    }
+    .cart-form-B button{
+        width: 250px;
+        font-size: 18px;
+    }
+
+}
+@media screen and (max-width: 1200px){
+    .header h1{
+        font-size: 42px;
+    }
+    .page-header{
+        margin-top: 0;
+    }
+    .product span,
+    .quantity span,
+    .total span{
+        font-size: 22px;
+    }
+    .cart-bottom{
+        width: 75%;
+        height: 18vh;
+    }
+    .Cart_itemlist{
+        width: 75%;
+    }
+    .bottom-list{
+        position: relative;
+    }
+    .cart-image{
+        position: absolute;
+        left: 10px;
+        width: 140px;
+        height: 14vh;
+    }
+    .cart-image img{
+        width: 140px;
+        height: 14vh;
+    }
+    .dec{
+        position: absolute;
+        left: 170px;
+        gap: 30px;
+        width: 35%;
+    }
+    .dec :nth-child(1){
+        line-height: 23px;
+        font-size: 18px;
+    }
+    .dec :nth-child(2){
+        font-size: 18px;
+    }
+    .qty{
+        position: absolute;
+        right: 125px;
+        top: 95px;
+    }
+    .price{
+        position: absolute;
+        right: 10px;
+        top: 113px;
+    }
+    .price span{
+        font-size: 18px;
+    }
+    .cart-footer{
+        width: 78%;
+    }
+    .cart-form-A p{
+        font-size: 20px;
+    }
+    .cart-form-A textarea::placeholder{
+        font-size:20px;
+    }
+    .cart-form-B :nth-child(1){
+        font-size:20px;
+    }
+    .cart-form-B :nth-child(2){
+        font-size:20px;
+    }
+    .cart-form-B button{
+        width: 200px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1080px){
+    .header h1{
+        font-size: 42px;
+    }
+    .page-header{
+        margin-top: 0;
+    }
+    .product span,
+    .quantity span,
+    .total span{
+        font-size: 22px;
+    }
+    .cart-bottom{
+        width: 75%;
+        height: 34vh;
+    }
+    .Cart_itemlist{
+        width: 75%;
+    }
+    .bottom-list{
+        position: relative;
+    }
+    .cart-image{
+        position: absolute;
+        left: 10px;
+        width: 152px;
+        height: 33vh;
+    }
+    .cart-image img{
+        width: 152px;
+        height: 33vh;
+    }
+    .dec{
+        position: absolute;
+        left: 185px;
+        gap: 30px;
+        width: 35%;
+    }
+    .dec :nth-child(1){
+        line-height: 23px;
+        font-size: 18px;
+    }
+    .dec :nth-child(2){
+        font-size: 18px;
+    }
+    .qty{
+        position: absolute;
+        right: 125px;
+        top: 60px;
+    }
+    .price{
+        position: absolute;
+        right: 10px;
+        top: 75px;
+    }
+    .price span{
+        font-size: 18px;
+    }
+    .cart-footer{
+        width: 78%;
+    }
+    .cart-form-A p{
+        font-size: 20px;
+    }
+    .cart-form-A textarea::placeholder{
+        font-size:20px;
+    }
+    .cart-form-B :nth-child(1){
+        font-size:20px;
+    }
+    .cart-form-B :nth-child(2){
+        font-size:20px;
+    }
+    .cart-form-B button{
+        width: 200px;
+        font-size: 18px;
+    }
+}
 @media screen and (max-width: 920px){
     .page-header{
         margin-top: 0;
@@ -301,16 +711,18 @@
         width: 180px;
         height: 21vh;
         position: absolute;
-        left: 62px;
+        left: -4px;
+        top: 6px;
     }
     .cart-image img{
         width: 182px;
+        height: 22vh;
     }
     .dec{
-        width: 23%;
+        width: 32%;
         gap: 33px;
         position: absolute;
-        left: 265px;
+        left: 215px;
     }
     .dec :nth-child(1){
         font-size: 20px;
@@ -321,16 +733,16 @@
     }
     .qty{
         position: absolute;
-        right: 152px;
-        top: 440px;
+        right: 112px;
+        top: 95px;
     }
     .price{
         position: absolute;
-        right: 50px;
-        top: 455px;
+        right: 0;
+        top: 110px;
     }
     .price span{
-        font-size: 18px;
+        font-size: 20px;
     }
     .cart-icons{
         width: 70px;
@@ -405,7 +817,8 @@
         height: 22vh;
     }
     .cart-image img{
-        width: 150px;
+        width: 146px;
+        height: 22vh;
     }
     .dec{
         width: 50%;
@@ -579,7 +992,7 @@
     .qty{
         position: absolute;
         top: 155px;
-        right: 170px;
+        right: 145px;
     }
     .cart-icons{
         width: 40px;
@@ -635,7 +1048,7 @@
         gap: 35px;
     }
     .qty{
-        right: 158px;
+        right: 135px;
     }
     .dec span{
         line-height: 22px;
@@ -689,7 +1102,7 @@
     .qty{
         position: absolute;
         top: 143px;
-        right: 143px;
+        right: 115px;
     }
     .cart-icons{
         width: 40px;
@@ -740,7 +1153,7 @@
 @media screen and (max-width: 380px){
     .qty{
         top: 115px;
-        right: 127px;
+        right: 105px;
     }
     .dec{
         top: 14px;
@@ -763,7 +1176,7 @@
 }
 @media screen and (max-width: 365px){
     .qty{
-        right: 118px;
+        right: 92px;
     }
 }
 @media screen and (max-width: 350px){
