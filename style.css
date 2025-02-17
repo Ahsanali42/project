@@ -282,6 +282,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .main{
     width: 90%;
@@ -399,8 +400,8 @@
     height: 150vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     /* border: 1px solid black; */
 }
 
@@ -426,7 +427,7 @@
     color: #000;
     margin: 0;
     padding: 0;
-      /* border: 1px solid black; */
+    /* border: 1px solid black; */
 
 }
 swiper-container {
@@ -565,7 +566,7 @@ swiper-slide img {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 .poduct-detail h5{
     font-size: 18px;
