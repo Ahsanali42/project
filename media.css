@@ -1,4 +1,752 @@
 
+/* Add to Cart page Media Query */
+@media screen and (max-width: 1300px){
+    .header h1{
+        font-size: 42px;
+    }
+    .Cart_itemlist{
+        width: 82%;
+    }
+    .product span,
+    .quantity span,
+    .total span{
+        font-size: 20px;
+    }
+    .cart-bottom{
+        width: 82%;
+    }
+    .dec{
+        margin-left: 20px;
+        gap: 35px;
+    }
+    .dec span{
+        font-size: 16px;
+    }
+    .dec :nth-child(2){
+        font-size: 16px;
+    }
+    .price span{
+        font-size: 16px;
+    }
+    .cart-footer{
+        width: 82%;
+    }
+    .cart-form-A p{
+        font-size: 18px;
+    }
+    .cart-form-A textarea::placeholder{
+        font-size: 18px;
+    }
+    .cart-form-B :nth-child(1),
+    .cart-form-B :nth-child(2){
+        font-size: 18px;
+    }
+    .cart-form-B button{
+        width: 250px;
+        font-size: 18px;
+    }
+
+}
+@media screen and (max-width: 1200px){
+    .header h1{
+        font-size: 42px;
+    }
+    .page-header{
+        margin-top: 0;
+    }
+    .product span,
+    .quantity span,
+    .total span{
+        font-size: 22px;
+    }
+    .cart-bottom{
+        width: 75%;
+        height: 18vh;
+    }
+    .Cart_itemlist{
+        width: 75%;
+    }
+    .bottom-list{
+        position: relative;
+    }
+    .cart-image{
+        position: absolute;
+        left: 10px;
+        width: 140px;
+        height: 14vh;
+    }
+    .cart-image img{
+        width: 140px;
+        height: 14vh;
+    }
+    .dec{
+        position: absolute;
+        left: 170px;
+        gap: 30px;
+        width: 35%;
+    }
+    .dec :nth-child(1){
+        line-height: 23px;
+        font-size: 18px;
+    }
+    .dec :nth-child(2){
+        font-size: 18px;
+    }
+    .qty{
+        position: absolute;
+        right: 125px;
+        top: 95px;
+    }
+    .price{
+        position: absolute;
+        right: 10px;
+        top: 113px;
+    }
+    .price span{
+        font-size: 18px;
+    }
+    .cart-footer{
+        width: 78%;
+    }
+    .cart-form-A p{
+        font-size: 20px;
+    }
+    .cart-form-A textarea::placeholder{
+        font-size:20px;
+    }
+    .cart-form-B :nth-child(1){
+        font-size:20px;
+    }
+    .cart-form-B :nth-child(2){
+        font-size:20px;
+    }
+    .cart-form-B button{
+        width: 200px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1080px){
+    .header h1{
+        font-size: 42px;
+    }
+    .page-header{
+        margin-top: 0;
+    }
+    .product span,
+    .quantity span,
+    .total span{
+        font-size: 22px;
+    }
+    .cart-bottom{
+        width: 75%;
+        height: 34vh;
+    }
+    .Cart_itemlist{
+        width: 75%;
+    }
+    .bottom-list{
+        position: relative;
+    }
+    .cart-image{
+        position: absolute;
+        left: 10px;
+        width: 152px;
+        height: 33vh;
+    }
+    .cart-image img{
+        width: 152px;
+        height: 33vh;
+    }
+    .dec{
+        position: absolute;
+        left: 185px;
+        gap: 30px;
+        width: 35%;
+    }
+    .dec :nth-child(1){
+        line-height: 23px;
+        font-size: 18px;
+    }
+    .dec :nth-child(2){
+        font-size: 18px;
+    }
+    .qty{
+        position: absolute;
+        right: 125px;
+        top: 60px;
+    }
+    .price{
+        position: absolute;
+        right: 10px;
+        top: 75px;
+    }
+    .price span{
+        font-size: 18px;
+    }
+    .cart-footer{
+        width: 78%;
+    }
+    .cart-form-A p{
+        font-size: 20px;
+    }
+    .cart-form-A textarea::placeholder{
+        font-size:20px;
+    }
+    .cart-form-B :nth-child(1){
+        font-size:20px;
+    }
+    .cart-form-B :nth-child(2){
+        font-size:20px;
+    }
+    .cart-form-B button{
+        width: 200px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 920px){
+    .page-header{
+        margin-top: 0;
+    }
+    .two{
+        margin-top: 20px;
+    }
+    .Cart_itemlist{
+        width: 88%;
+        position: relative;
+    }
+    .product span,
+    .quantity span,
+    .total span{
+        font-size: 22px;
+        letter-spacing: 2;
+    }
+    .three{
+        margin-top: 20px;
+    }
+    .cart-bottom{
+        width: 85%;
+        height: 23vh;
+    }
+    .cart-image{
+        width: 180px;
+        height: 21vh;
+        position: absolute;
+        left: -4px;
+        top: 6px;
+    }
+    .cart-image img{
+        width: 182px;
+        height: 22vh;
+    }
+    .dec{
+        width: 32%;
+        gap: 33px;
+        position: absolute;
+        left: 215px;
+    }
+    .dec :nth-child(1){
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .dec :nth-child(2){
+        font-size: 18px;
+    }
+    .qty{
+        position: absolute;
+        right: 112px;
+        top: 95px;
+    }
+    .price{
+        position: absolute;
+        right: 0;
+        top: 110px;
+    }
+    .price span{
+        font-size: 20px;
+    }
+    .cart-icons{
+        width: 70px;
+        height: 26px;
+    }
+    .cart-icons i{
+        font-size: 16px;
+    }
+    .cart-icons span{
+        font-size: 22px;
+    }
+    .four{
+        margin-top: 37px;
+    }
+    .cart-footer{
+        width: 85%;
+    }
+    .cart-form-B :nth-child(1),
+    .cart-form-B :nth-child(2){
+        font-size: 18px;
+    }
+    .cart-form-A textarea{
+        width: 92%;
+        height: 10vh;
+    }
+}
+@media screen and (max-width: 770px){
+    .page-header{
+        margin-top: 0;
+    }
+    .two{
+        margin-top: 20px;
+    }
+    .Cart_itemlist{
+        width: 88%;
+    }
+    .product span,
+    .quantity span,
+    .total span{
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+    .total,
+    .price{
+        display: none;
+    }
+    .three{
+        margin-top: 35px;
+    }
+    .cart-bottom{
+        width: 85%;
+    }
+    .cartheader,
+    .bottom-list{
+        position: relative;
+    }
+    .quantity,
+    .qty{
+        position: absolute;
+        right: -40px;
+    }
+    .qty{
+        top: 70px;
+    }
+    .product,
+    .cart-image{
+        position: absolute;
+        left: 5px;
+    }
+    .cart-image{
+        width: 146px;
+        height: 22vh;
+    }
+    .cart-image img{
+        width: 146px;
+        height: 22vh;
+    }
+    .dec{
+        width: 50%;
+        gap: 20px;
+        position: absolute;
+        left: 175px;
+        top: 50px;
+    }
+    .dec :nth-child(1){
+        font-size: 18px;
+    }
+    .dec :nth-child(2){
+        font-size: 16px;
+    }
+    .cart-icons{
+        width: 50px;
+        height: 12px;
+    }
+    .cart-icons i{
+        font-size: 9px;
+    }
+    .cart-icons span{
+        font-size: 14px;
+    }
+    .cart-footer{
+        width: 85%;
+    }
+    .cart-form-B :nth-child(1),
+    .cart-form-B :nth-child(2){
+        font-size: 15px;
+    }
+    .cart-form-A textarea{
+        width: 92%;
+        height: 10vh;
+    }
+} 
+@media screen and (max-width: 550px){
+      .page-header{
+          margin-top: 0;
+      }
+      .two{
+          margin-top: 20px;
+      }
+      .Cart_itemlist{
+          width: 88%;
+      }
+      .product span,
+      .quantity span,
+      .total span{
+          font-size: 12px;
+          letter-spacing: 0;
+      }
+      .total,
+      .price{
+          display: none;
+      }
+      .three{
+          margin-top: 20px;
+      }
+      .cart-bottom{
+          width: 85%;
+      }
+      .cartheader,
+      .bottom-list{
+          position: relative;
+      }
+      .quantity,
+      .qty{
+          position: absolute;
+          right: -40px;
+      }
+      .qty{
+        top: 45px;
+      }
+      .product,
+      .cart-image{
+          position: absolute;
+          left: 5px;
+      }
+      .cart-image{
+          width: 120px;
+      }
+      .cart-image img{
+        width: 100px;
+    }
+      .dec{
+          width: 50%;
+          gap: 20px;
+          position: absolute;
+          left: 118px;
+          top: 35px;
+      }
+      .dec :nth-child(1){
+        font-size: 14px;
+        line-height: 15px;
+      }
+      .dec :nth-child(2){
+        font-size: 12px;
+      }
+      .cart-icons{
+          width: 50px;
+          height: 12px;
+      }
+      .cart-icons i{
+          font-size: 9px;
+      }
+      .cart-icons span{
+          font-size: 14px;
+      }
+      .cart-footer{
+          width: 95%;
+      }
+      .cart-form-B :nth-child(1){
+          font-size: 10px;
+      }
+      .cart-form-B :nth-child(2){
+          font-size: 12px;
+      }
+}
+@media screen and (max-width: 475px){
+    .quantity span,
+    .product span,
+    .total span,
+    .price{
+        display: none;
+    }
+    .page-header{
+        height: 10vh;
+        margin-top: 0;
+    }
+    .header h1{
+        font-size: 20px;
+    }
+    .cart-bottom{
+        width: 93%;
+        height: 23vh;
+    }
+    .bottom-list{
+        position: relative;
+    }
+    .cart-image{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 30%;
+        height: 23vh;
+    }
+    .cart-image img{
+        width: 125px;
+        height: 23vh;
+    }
+    .dec{
+        position: absolute;
+        top: 34px;
+        left: 142px;
+        width: 68%;
+        gap: 20px;
+        width: 55%;
+    }
+    .dec :nth-child(1){
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .dec :nth-child(2){
+        font-size: 15px;
+    }
+    .dec span{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .qty{
+        position: absolute;
+        top: 155px;
+        right: 145px;
+    }
+    .cart-icons{
+        width: 40px;
+        height: 10px;
+    }
+    .cart-icons i{
+        font-size: 10px;
+    }
+    .cart-icons span{
+        font-size: 12px;
+    }
+    .cart-footer{
+        width: 95%;
+    }
+    .cart-NoteConyainer{
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cart-form-B{
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        gap: 10px;
+        width: 92%;
+    }
+    .cart-form-B :nth-child(1){
+        font-size: 12px;
+    }
+    .cart-form-B :nth-child(2){
+        font-size: 12px;
+    }
+    .cart-form-B button{
+        margin-top: 10px;
+        margin-right: 8px;
+        width: 100%;
+    }
+    .cart-form-A{
+        position: absolute;
+        top: 225px;
+        width: 100%;   
+    }
+    .cart-form-A textarea{
+        width: 90%;
+        height: 18vh;
+    }
+}
+@media screen and (max-width: 420px){
+    .dec{
+        left: 140px;
+        top: 10px;
+        width: 55%;
+        gap: 35px;
+    }
+    .qty{
+        right: 135px;
+    }
+    .dec span{
+        line-height: 22px;
+    }
+    .dec :nth-child(1){
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+@media screen and (max-width: 400px){
+    .quantity span,
+    .product span,
+    .total span,
+    .price{
+        display: none;
+    }
+    .page-header{
+        height: 10vh;
+        margin-top: 0;
+    }
+    .header h1{
+        font-size: 20px;
+    }
+    .cart-bottom{
+        width: 93%;
+        height: 23vh;
+    }
+    .bottom-list{
+        position: relative;
+    }
+    .cart-image{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 125px;
+    }
+    .dec{
+        position: absolute;
+        top: 40px;
+        right: -6px;
+        width: 65%;
+        gap: 20px;
+    }
+    .dec span{
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .dec :nth-child(2){
+        font-size: 12px;
+    }
+    .qty{
+        position: absolute;
+        top: 143px;
+        right: 115px;
+    }
+    .cart-icons{
+        width: 40px;
+        height: 10px;
+    }
+    .cart-icons i{
+        font-size: 10px;
+    }
+    .cart-icons span{
+        font-size: 12px;
+    }
+    .cart-footer{
+        width: 95%;
+    }
+    .cart-NoteConyainer{
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cart-form-B{
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        gap: 10px;
+        width: 92%;
+    }
+    .cart-form-B :nth-child(1){
+        font-size: 12px;
+    }
+    .cart-form-B :nth-child(2){
+        font-size: 12px;
+    }
+    .cart-form-B button{
+        margin-top: 10px;
+        margin-right: 8px;
+        width: 100%;
+    }
+    .cart-form-A{
+        position: absolute;
+        top: 225px;
+        width: 100%;   
+    }
+    .cart-form-A textarea{
+        width: 90%;
+        height: 18vh;
+    }
+}
+@media screen and (max-width: 380px){
+    .qty{
+        top: 115px;
+        right: 105px;
+    }
+    .dec{
+        top: 14px;
+        right: -16px;
+    }
+    .dec :nth-child(1){
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .dec :nth-child(2){
+        font-size: 12px;
+    }
+
+    .cart-image{
+        width: 125px;
+    }
+    .cart-bottom{
+        height: 23vh;
+    }
+}
+@media screen and (max-width: 365px){
+    .qty{
+        right: 92px;
+    }
+}
+@media screen and (max-width: 350px){
+    .qty{
+        right: 100px;
+    }
+    .dec{
+        width: 55%;
+        left: 142px;
+    }
+    .cart-form-B{
+        right: 12px;
+    }
+}
+
+
+
+/* blog page media Query */
+@media screen and (max-width: 1200px) {
+    .Blog-one{
+        overflow: hidden;
+    }
+    .title-header{
+        width: 100%;
+    }
+    .Blog-two{
+        height: 10vh;
+    }
+    .Recent h4{
+        font-size: 28px;
+    }
+    .main-three{
+        width: 100%;
+    }
+    .content{
+        max-width: 45vw;
+        width: 45vh;
+        max-height: 48vh;
+        animation-range: entry 0% cover 35%;
+    }
+    .content img{
+       max-width: 45vw;
+       max-height: 300px;
+       gap: 10px;
+    }
+    .content-dec h3{
+        font-size: 25px;
+    }
+    
+}
 @media screen and (max-width: 991px) {
     .Blog-one{
         overflow: hidden;
@@ -11,11 +759,14 @@
     }
     .content{
         max-height: 60vh;
+        width: 44vw;
     }
     .content img{
-       max-width: 350px;
+       width: 418px;
+       max-width: 418px;
        max-height: 300px;
        gap: 10px;
+       border-radius: 20px;
     }
     .content-dec h3{
         font-size: 25px;
@@ -23,34 +774,335 @@
 }
 @media screen and (max-width: 799px) {
     .content{
-        max-width: 38vw;
+        max-width: 44vw;
         max-height: 60vh;
+        width: 44vw;
     }
     .content img{
-        max-width: 35vw;
-    }
-    
+        width: 44vw;
+        max-width: 44vw;
+    } 
 }
-/* @media screen and (max-width: 579px) {
+@media screen and (max-width: 645px) {
     .title-header h2{
-        font-size: 25px;
+        font-size: 30px;
+    }
+    .main-three{
+        height: 100%;
     }
     .content-flex{
-        width: 100%;
         flex-direction: column;
+        height: 100%;
         
     }
     .content{
-        max-width: 54vh;
-        width: 54vh;
+        max-width: 44vh;
+        width: 44vh;
         height: 100%;
+        animation-range: entry 0% cover 30%;
     }
     .content img{
-        width: 500px;
-        max-width: 500px;
+        width: 550px;
+        max-width: 550px;
+       border-radius: 20px;
+
+    }
+    .content-dec{
+        width: 44vh;
+        max-width: 44vh;
     }
     .content-dec p{
-        font-size: 15px;
+        font-size: 15px;   
+    }
+}
+@media screen and (max-width: 579px) {
+    .title-header h2{
+        font-size: 25px;
+    }
+    .main-three{
+        height: 310vh;
+        margin-top: 0;
+    }
+    .Recent h4{
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .content-flex{
+        flex-direction: column;
+        height: 100%; 
+    }
+    .content{
+        max-width: 93vw;
+        width: 93vw;
+        height: 100%;
+        animation-range: entry 0% cover 30%;
+    }
+    .content img{
+        width: 468px;
+        max-width: 468px;
+        border-radius: 20px;
+    }
+    .content-dec{
+        width: 93vw;
+        max-width: 93vw;
+    }
+    .content-dec p{
+        font-size: 15px; 
     }
    
-} */
+}
+@media screen and (max-width: 479px) {
+   .title-header h2 {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.Recent h4 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.content-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 72px;
+}
+
+.content {
+    width: 90%;
+    text-align: center;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-dec span {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.content-dec h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.content-dec p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+}
+
+/* Cart page media Qury */
+
+@media (max-width: 1300px) {
+    .main-container{
+        margin-top: 40px;
+    }
+    .slider-container {
+        width: 48%;
+        height: 750px;
+        margin-bottom: 40px;
+    }
+    .slider-decription-main {
+        width: 48%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .slider-decrition p {
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    .dec-flex {
+        width: 50%;
+    }
+    .cart-button button {
+        width: 100%;
+        height: 50px;
+    }
+}
+@media (max-width: 1200px) {
+    .main-container{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .slider-container {
+        width: 48%;
+        height: 750px;
+        margin-bottom: 720px;
+    }
+    .slider-decription-main {
+        width: 48%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .slider-decrition p {
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    .dec-flex {
+        width: 50%;
+    }
+    .cart-button button {
+        width: 100%;
+        height: 50px;
+    }
+}
+@media (max-width: 979px) {
+    .main-container{
+        /* margin-top: 40px; */
+        width: 100%;
+    }
+    .slider-container {
+        width: 47%;
+        height: 750px;
+        margin-bottom: 650px;
+    }
+    .slider-decription-main {
+        width: 48%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .slider-decrition p {
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    .dec-flex {
+        width: 50%;
+    }
+    .cart-button button {
+        width: 100%;
+        height: 50px;
+    }
+}
+@media (max-width: 799px) {
+    .main-container{
+        width: 90%;
+    }
+    .slider-container {
+        width: 100%;
+        height: 850px;
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+    .main-container {
+        width: 100%;
+        height: auto;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .slider-decription-main{
+        width: 90%;
+        padding: 10px;
+    }
+    .slider-decrition p {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .dec-flex {
+        width: 60%;
+    }
+
+    .cart-button button {
+        font-size: 14px;
+    }
+}
+@media (max-width: 579px) {
+    .main-container{
+        width: 90%;
+    }
+    .slider-container {
+        width: 100%;
+        height: 500px;
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+    .main-container {
+        width: 100%;
+        height: auto;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .slider-decription-main{
+        width: 90%;
+        padding: 10px;
+    }
+    .slider-decrition p {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .dec-flex {
+        width: 60%;
+    }
+
+    .cart-button button {
+        font-size: 14px;
+    }
+}
+@media (max-width: 479px) {
+    .slider-one {
+        height: auto;
+    }
+    .main-container {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .slider-container {
+        width: 100%;
+        height: 450px;
+    }
+    .slider-decription-main {
+        width: 90%;
+        padding: 15px;
+    }
+    .slider-decrition p {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .dec-flex {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .price-cross span{
+        font-size: 18px;
+    }
+    .cart-qty{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    .cart-quantity {
+        width: 80px;
+    }
+    .cart-button button {
+        width: 90%;
+        height: 45px;
+        font-size: 12px;
+    }
+    .cart-button button span{
+        font-size: 15px;
+    }
+    .poduct-detail h5 {
+        font-size: 16px;
+    }
+    .cart-list li {
+        font-size: 14px;
+    }
+}
+
+
